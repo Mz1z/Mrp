@@ -30,7 +30,7 @@ async def handle(reader, writer):
 		trans_s2c(r_reader, writer)
 	)
 
-	print('> Close connection: {addr} !')
+	print(f'> Close connection: {addr} !')
 	
 # 主服务器进程
 async def main():
